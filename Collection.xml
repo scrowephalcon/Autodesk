@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Collection version="1.4" xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Identity>
+        <Name>Revit-2024_2</Name>
+        <UPI2>{5E7F7E7E-F8DD-45E4-A03F-A5CC5FAD403A}</UPI2>
+        <RevisionNumber>2</RevisionNumber>
+        <DeploymentImagePath>\\phalcon-fs\PowerHawke\Scripts\Autodesk Installs\Revit\installers\Revit_2024\image</DeploymentImagePath>
+        <ImageType>Uncompressed</ImageType>
+        <Symlink>true</Symlink>
+        <PortalSessionId>0894fe57-8b7f-4e8b-8c30-0262856dd378</PortalSessionId>
+        <AnalyticsId>mm98HXeD9bUOSZjpYfvbsMk8dDs=</AnalyticsId>
+        <ConfigurationID>{DE6D692F-BF16-4786-B8E8-5B05568D05D7}</ConfigurationID>
+        <DownloadId>{AA7959DB-7001-4FBF-831C-94359954F148}</DownloadId>
+    </Identity>
+    <CustomProperties>
+        <Property name="ADA_INSTALL" value="0"/>
+    </CustomProperties>
+    <Configuration>
+        <InstallPath>C:\Program Files\Autodesk\</InstallPath>
+    </Configuration>
+    <InternalConfiguration>
+        <ODISPackages>
+            <Package name="odis" path="ODIS/pkg.odis.xml" extractParams="--mode unattended --useService 0"/>
+        </ODISPackages>
+        <ComponentUpdateUrl>https://compsvc.delivery.autodesk.com/compsvc/componentService/component/latest/v1</ComponentUpdateUrl>
+        <OdisInstallerUpgradeCode>{BEC01EA1-3942-3A39-9863-47536D7CDEB1}</OdisInstallerUpgradeCode>
+        <ManifestDownloadUrl>https://manifest.delivery.autodesk.com/manifest/manifestService/manifestDownload/v1</ManifestDownloadUrl>
+        <State>live</State>
+        <Env>prd</Env>
+    </InternalConfiguration>
+    <Eula>
+        <Status>Accept</Status>
+    </Eula>
+    <LoggingSettings>
+        <Logging>true</Logging>
+        <Path>\\phalcon-fs\PowerHawke\Scripts\Autodesk Installs\Revit\installers\log\Revit-2024_2.log</Path>
+    </LoggingSettings>
+    <URLRoot>https://dds.autodesk.com</URLRoot>
+    <InstallType>Deployment</InstallType>
+    <Bundles>
+        <Bundle SeqNo="0">
+            <UPI2>{F9013D08-6F9F-3F9B-8360-93C40ABE4C1B}</UPI2>
+            <Platforms>
+                <Platform name="Windows" architecture="x64" minVersion="5.1.2"/>
+            </Platforms>
+            <LangId>en-US</LangId>
+            <BundleID>RVT_2024_en-US</BundleID>
+            <ProductKey>111A1</ProductKey>
+            <Applications>
+                <Application>
+                    <UPI2>{283D1824-0350-3321-A3CB-F41F47348310}</UPI2>
+                    <CustomProperties>
+                        <Property name="RVT_S_IESCONTENT" value="C:\ProgramData\Autodesk\RVT 2024\IES\"/>
+                        <Property name="RVT_S_LIBRARYCONTENT" value="C:\ProgramData\Autodesk\RVT 2024\Libraries\"/>
+                        <Property name="RVT_S_TEMPLATECONTENT" value="C:\ProgramData\Autodesk\RVT 2024\Templates\"/>
+                        <Property name="RVT_S_FAMILYTEMPLATES" value="C:\ProgramData\Autodesk\RVT 2024\Family Templates\"/>
+                        <Property name="RVT_S_LOOKUPTABLES" value="C:\ProgramData\Autodesk\RVT 2024\Lookup Tables\"/>
+                        <Property name="SELECT_BATCHPRINT" value="1"/>
+                        <Property name="SELECT_ETRANSMIT" value="1"/>
+                        <Property name="SELECT_WORKSHARE" value="1"/>
+                        <Property name="SELECT_FORMIT" value="1"/>
+                        <Property name="SELECT_PROD_FEED" value="1"/>
+                        <Property name="SELECT_PAC" value="1"/>
+                        <Property name="SELECT_ESSEN_ENU" value="1"/>
+                        <Property name="SELECT_ESSEN_ENG" value="0"/>
+                        <Property name="SELECT_ESSEN_CSY" value="0"/>
+                        <Property name="SELECT_ESSEN_FRA" value="0"/>
+                        <Property name="SELECT_ESSEN_DEU" value="0"/>
+                        <Property name="SELECT_ESSEN_ITA" value="0"/>
+                        <Property name="SELECT_ESSEN_JPN" value="0"/>
+                        <Property name="SELECT_ESSEN_KOR" value="0"/>
+                        <Property name="SELECT_ESSEN_PLK" value="0"/>
+                        <Property name="SELECT_ESSEN_PTB" value="0"/>
+                        <Property name="SELECT_ESSEN_RUS" value="0"/>
+                        <Property name="SELECT_ESSEN_CHS" value="0"/>
+                        <Property name="SELECT_ESSEN_ESP" value="0"/>
+                        <Property name="SELECT_ESSEN_CHT" value="0"/>
+                        <Property name="REVITSERVERADDRESS" value=""/>
+                        <Property name="SETTINGS_INI_FILE_PATH" value=""/>
+                        <Property name="DYNAMO_XML_FILE_PATH" value=""/>
+                        <Property name="ADLM_EULA_COUNTRY" value="US"/>
+                        <Property name="NIWSELECTION" value="1"/>
+                        <Property name="ACADSTANDALONENETWORKTYPE" value="2"/>
+                    </CustomProperties>
+                </Application>
+            </Applications>
+        </Bundle>
+    </Bundles>
+</Collection>
